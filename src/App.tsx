@@ -1,11 +1,10 @@
 import { RootLayout } from '@/components/layouts/root-layout'
+import { SimpleDnd } from '@/components/simple-dnd/simple-dnd'
 
 export default function App() {
   return (
     <RootLayout>
-      <div>
-        <h1 className='text-3xl font-bold underline'>Hello world!</h1>
-      </div>
+      <SimpleDnd />
     </RootLayout>
   )
 }
