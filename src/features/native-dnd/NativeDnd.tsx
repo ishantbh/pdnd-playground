@@ -1,5 +1,6 @@
-import { cn } from '@/lib/utils'
 import { useState } from 'react'
+
+import { cn } from '@/lib/utils'
 
 export function NativeDnd() {
   const [dropped, setDropped] = useState<string | null>(null)
@@ -36,7 +37,7 @@ export function NativeDnd() {
           e.preventDefault()
           setIsDragOver(true)
         }}
-        onDragLeave={(e) => {
+        onDragLeave={() => {
           setIsDragOver(false)
         }}
         onDrop={(e) => {
