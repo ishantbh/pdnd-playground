@@ -1,11 +1,12 @@
 import { RootLayout } from '@/components/layouts/root-layout'
-import { NativeDnd } from '@/features/native-dnd/NativeDnd'
+import { SortableList } from '@/features/sortable-list-official/SortableList'
 
 export default function App() {
   return (
     <RootLayout>
       {/* <SimpleDnd /> */}
-      <NativeDnd />
+      {/* <NativeDnd /> */}
+      <SortableList />
     </RootLayout>
   )
 }
