@@ -107,7 +107,7 @@ export function ListItem({ item, index }: ListItemProps) {
             variant='ghost'
             size='icon-xs'
             ref={dragHandleRef}
-            className='cursor-grab active:cursor-grabbing'
+            className='cursor-grab active:cursor-grabbing text-muted-foreground'
           >
             <GripVerticalIcon className='size-4' />
           </Button>
